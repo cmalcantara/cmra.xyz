@@ -28,7 +28,7 @@ const IndexPage = () => {
   return (
     <article>
       <Header>
-        <Title>Carlos&nbsp;Alcantara</Title>
+        <Title>Carlos Alcantara</Title>
       </Header>
       <Subtitle fontSize={[2, 3]} mt={1} mb={5}>
         Philippine Science High School - Main Campus | Batch 2020

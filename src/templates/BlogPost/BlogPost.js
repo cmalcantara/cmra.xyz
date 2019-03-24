@@ -23,7 +23,7 @@ const BlogPostTemplate = ({ data }) => {
 
         <meta name="description" content={post.frontmatter.description} />
 
-        <meta name="twitter:site" content="@lowmess" />
+        <meta name="twitter:site" content="@cmraxyz" />
         <meta name="twitter:card" content="summary" />
         <meta property="og:site_name" content={title} />
         <meta
