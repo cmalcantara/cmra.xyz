@@ -33,7 +33,7 @@ const ProjectsPage = () => {
 
       <article>
         <Header>
-          <Title>First-World Problem Solvers</Title>
+          <Title>Projects</Title>
         </Header>
 
         <main>

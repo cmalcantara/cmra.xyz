@@ -6,7 +6,7 @@ const Header = ({ children }) => (
   <header>
     {children}
 
-    <Rule mt={4} mb={5} />
+    <Rule mt={3} mb={3} />
   </header>
 )
 

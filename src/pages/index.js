@@ -28,22 +28,21 @@ const IndexPage = () => {
   return (
     <article>
       <Header>
-        <Title>Hi! I&rsquo;m Alec&nbsp;Lomas.</Title>
-
-        <Subtitle my={3}>
-          I&rsquo;m a frontend developer currently{' '}
-          <HeaderLink href="mailto:alec@lowmess.com?subject=Let's%20Work%20Together">
-            seeking new&nbsp;opportunities
-          </HeaderLink>
-          .
-        </Subtitle>
-
-        <Paragraph fontSize={[2, 3]} mt={3} mb={4}>
-          My goal is to create beautiful websites and rich interactions without
-          sacrificing usability. I care deeply about legibility, performance,
-          and the open web. And&nbsp;burritos.
-        </Paragraph>
+        <Title>Carlos&nbsp;Alcantara</Title>
       </Header>
+      <Subtitle fontSize={[2, 3]} mt={1} mb={5}>
+        Philippine Science High School - Main Campus | Batch 2020
+      </Subtitle>
+
+      <main>
+        <Paragraph>
+          I&rsquo;m a senior high school student interested in developing
+          expertise in all the fields of science, from Math, Physics, Chemistry,
+          Biology, Humanities, Engineering and Computer Science, in order to
+          develop a unique and nuanced perspective that will allow me to create
+          vertically integrated solutions to today&rsquo;s modern problems.
+        </Paragraph>
+      </main>
 
       <main>
         <Text

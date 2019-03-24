@@ -1,7 +1,7 @@
 ---
-title: A Better Album Ranking Algorithm
-date: 2018-03-12
-description: In its quest to glorify the scrobble, Last.fm has forgotten the humble album. We can almost fix that.
+title: A Personal Dashboard
+date: 2019-03-24
+description: A dashboard that shows the data that I track to help me improve myself
 ---
 
 Years ago, I deleted my [Last.fm](https://last.fm) account, because it felt like a dying social media network. Months ago, I created [a new one](https://www.last.fm/user/lowmess), because Last.fm is a treasure trove of behaviorally generated personal data. It's a lovely service for a developer to have around for side projects, as it provides instant and easy access to a large dataset with a particularly personal connection if you're a music lover. In the process of using it for [one of those side projects](/about/), I found a dark & disturbing secret: Last.fm actually kind of sucks for tracking album plays.

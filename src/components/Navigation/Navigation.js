@@ -12,7 +12,7 @@ import { themeHover } from '../../utils/styles'
 const activeBorder = css`
   .active & {
     border-bottom: ${({ theme }) => theme.borders[2]};
-    border-color: ${({ theme }) => theme.colors.orange};
+    border-color: ${({ theme }) => theme.colors.red};
   }
 `
 
@@ -56,7 +56,7 @@ const Navigation = ({ location }) => (
     alignItems="center"
     justifyContent="space-between"
     mt={[0, 2, 3]}
-    mb={[5, 6]}
+    mb={[3, 4]}
     css="position: relative"
   >
     <SkipNavLink />
@@ -79,13 +79,9 @@ const Navigation = ({ location }) => (
       </ListItem>
 
       <ListItem display="inline-block">
-        <NavLink to="/blog/" mr={2}>
-          Blog
+        <NavLink to="/writing/" mr={2}>
+          Writing
         </NavLink>
-      </ListItem>
-
-      <ListItem display="inline-block">
-        <NavLink to="/about/">About</NavLink>
       </ListItem>
     </List>
   </Flex>

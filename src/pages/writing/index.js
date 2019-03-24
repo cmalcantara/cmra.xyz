@@ -34,7 +34,7 @@ const PostLink = styled(Link)`
   ${themeHover};
 `
 
-const BlogPage = () => {
+const WritingPage = () => {
   const { title } = useSiteMetadata()
   const data = useStaticQuery(graphql`
     query {
@@ -61,12 +61,12 @@ const BlogPage = () => {
   return (
     <>
       <Helmet>
-        <title>Blog • {title}</title>
+        <title>Writing • {title}</title>
       </Helmet>
 
       <article>
         <Header>
-          <Title>Eloquent Writings About Stuff</Title>
+          <Title>Writing</Title>
         </Header>
 
         <main>
@@ -111,4 +111,4 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage
+export default WritingPage

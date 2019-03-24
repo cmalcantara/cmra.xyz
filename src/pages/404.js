@@ -14,7 +14,7 @@ const HaikuLink = styled(Link)`
 const errorPage = () => (
   <>
     <Helmet>
-      <title>I goofed it.</title>
+      <title>Woops</title>
     </Helmet>
 
     <article>
@@ -32,13 +32,13 @@ const errorPage = () => (
           fontFamily="monospace"
           lineHeight="title"
         >
-          &ldquo;
-          <HaikuLink to="/">Click here to go home</HaikuLink>
-          &rdquo;
+          &ldquo; Click here to go home &rdquo;
           <br />
-          &nbsp;Is over-used and boring,
+          &nbsp;
           <br />
-          &nbsp;But at least it&rsquo;s clear.
+          &nbsp;
+          <br />
+          &nbsp;"Try not to be a man of success but a man of value" - Einstein
           <br />
         </Text>
       </main>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'lowmess',
-    description: 'oh, this ole thing? just my portfolio-slash-blog nbd',
-    siteUrl: 'https://www.lowmess.com',
+    title: 'Carlos Alcantara',
+    description: 'work',
+    siteUrl: 'https://www.cmra.xyz',
   },
   plugins: [
     // Adding various source folders to the GraphQL layer.
@@ -106,8 +106,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'lowmess',
-        short_name: 'lowmess',
+        name: 'cmra',
+        short_name: 'cmra',
         start_url: '/',
         background_color: '#f2930d',
         theme_color: '#f9f9f8',

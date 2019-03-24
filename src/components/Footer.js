@@ -47,7 +47,7 @@ const Footer = () => {
       fontFamily="monospace"
     >
       <Box display={['none', 'none', 'block']}>
-        <Text mr={2}>From the blog:</Text>
+        <Text mr={2}>Writing:</Text>
 
         <ArrowLink fontWeight={7} dest={post.fields.slug}>
           {post.frontmatter.title}
@@ -56,17 +56,17 @@ const Footer = () => {
 
       <List>
         <ListItem display="inline-block" mr={3}>
-          <SocialLink href="https://twitter.com/lowmess">Twitter</SocialLink>
+          <SocialLink href="mailto:alcantaracarlosmiguelr@gmail.com">
+            Email
+          </SocialLink>
         </ListItem>
 
         <ListItem display="inline-block" mr={3}>
-          <SocialLink href="https://github.com/lowmess">GitHub</SocialLink>
+          <SocialLink href="https://github.com/cmalcantara">GitHub</SocialLink>
         </ListItem>
 
         <ListItem display="inline-block">
-          <SocialLink href="https://resume.lowmess.com">
-            R&eacute;sum&eacute;
-          </SocialLink>
+          <SocialLink href="https://resume.cmra.xyz">CV</SocialLink>
         </ListItem>
       </List>
     </Flex>

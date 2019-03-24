@@ -4,13 +4,13 @@ const themeHover = css`
   color: inherit;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.orange};
+    color: ${({ theme }) => theme.colors.red};
   }
 `
 
 const themeUnderline = css`
   text-decoration: underline;
-  text-decoration-color: ${({ theme }) => theme.colors.orange};
+  text-decoration-color: ${({ theme }) => theme.colors.red};
 `
 
 export { themeHover, themeUnderline }

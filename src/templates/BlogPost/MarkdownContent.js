@@ -102,7 +102,7 @@ const MarkdownContent = styled(Box)`
     margin-left: 0;
     margin-right: 0;
     border: ${({ theme }) => theme.borders[1]}
-      ${({ theme }) => theme.colors.orange};
+      ${({ theme }) => theme.colors.red};
     margin: ${({ theme }) => theme.space[4]} 0;
   }
 
@@ -142,10 +142,10 @@ const MarkdownContent = styled(Box)`
   a {
     color: ${({ theme }) => theme.colors.darkGrey};
     text-decoration: underline;
-    text-decoration-color: ${({ theme }) => theme.colors.orange};
+    text-decoration-color: ${({ theme }) => theme.colors.red};
 
     &:hover {
-      color: ${({ theme }) => theme.colors.orange};
+      color: ${({ theme }) => theme.colors.red};
     }
 
     @media print {
@@ -154,7 +154,7 @@ const MarkdownContent = styled(Box)`
         font-size: 0.875em;
       }
       &[href^='/']:after {
-        content: ' (https://lowmess.com' attr(href) ')';
+        content: ' (https://cmra.xyz' attr(href) ')';
       }
       &[href^='#'] {
         text-decoration: none;
@@ -173,7 +173,7 @@ const MarkdownContent = styled(Box)`
     margin-bottom: ${({ theme }) => theme.space[4]};
     margin-left: 0;
     border-left: ${({ theme }) => theme.borders[3]}
-      ${({ theme }) => theme.colors.orange};
+      ${({ theme }) => theme.colors.red};
     border-radius: ${({ theme }) => theme.radii[1]};
     padding: ${({ theme }) => theme.space[3]};
     background-color: ${({ theme }) => theme.colors.nearWhite};
@@ -216,7 +216,7 @@ const MarkdownContent = styled(Box)`
     margin-top: ${({ theme }) => theme.space[4]};
     margin-bottom: ${({ theme }) => theme.space[4]};
     border-left: ${({ theme }) => theme.borders[3]}
-      ${({ theme }) => theme.colors.orange};
+      ${({ theme }) => theme.colors.red};
     border-radius: ${({ theme }) => theme.radii[1]};
     padding: ${({ theme }) => theme.space[3]};
     background-color: ${({ theme }) => theme.colors.nearBlack};

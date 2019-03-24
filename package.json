@@ -1,7 +1,7 @@
 {
-  "name": "lowmess",
+  "name": "cmra",
   "version": "3.0.0",
-  "description": "The website and portfolio of Alec Lomas",
+  "description": "The website and portfolio of Carlos Alcantara",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -10,31 +10,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lowmess/lowmess.git"
+    "url": "git+https://github.com/cmalcantara/cmra.git"
   },
   "keywords": [
     "portfolio",
     "frontend",
     "design"
   ],
-  "author": "Alec Lomas",
+  "author": "Carlos Alcantara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lowmess/lowmess/issues"
+    "url": "https://github.com/cmalcantara/cmra/issues"
   },
-  "homepage": "https://lowmess.com",
+  "homepage": "https://cmra.xyz",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.1.14",
+    "gatsby": "^2.2.8",
     "gatsby-plugin-catch-links": "^2.0.11",
     "gatsby-plugin-feed": "^2.0.13",
     "gatsby-plugin-gauges": "^0.0.4",
+    "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-layout": "^1.0.12",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-netlify": "^2.0.11",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-plugin-sharp": "^2.0.30",
     "gatsby-plugin-sitemap": "^2.0.5",
     "gatsby-plugin-styled-components": "^3.0.5",
     "gatsby-remark-autolink-headers": "^2.0.14",
@@ -42,10 +43,11 @@
     "gatsby-remark-images": "^2.0.6",
     "gatsby-remark-prismjs": "^3.2.4",
     "gatsby-remark-smartypants": "^2.0.8",
-    "gatsby-source-filesystem": "^2.0.21",
+    "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-json": "^2.1.8",
     "gatsby-transformer-remark": "^2.2.5",
     "gatsby-transformer-sharp": "^2.1.13",
+    "js-yaml": "^3.13.0",
     "lowmess-prism": "^0.2.3",
     "prismjs": "^1.15.0",
     "prop-types": "^15.7.2",
@@ -61,6 +63,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.14.0",
     "eslint-config-lowmess": "^2.2.1",
+    "gatsby-plugin-eslint": "^2.0.4",
     "husky": "^1.3.1",
     "lint-staged": "^7.3.0",
     "prettier": "^1.16.4"

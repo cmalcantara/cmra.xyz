@@ -9,6 +9,7 @@ const colors = {
   white: '#fff',
   transparent: 'transparent',
   orange: '#f2930d',
+  red: '#cb2d3e',
 }
 
 // Box-sizing & borders

@@ -5,8 +5,8 @@ const Title = system(
     is: 'h1',
     mt: 0,
     mb: 3,
-    fontSize: [4, 5],
-    fontWeight: 7,
+    fontSize: [6, 7],
+    fontWeight: 1,
     lineHeight: 'title',
   },
   'space'
@@ -17,8 +17,8 @@ const Subtitle = system(
     is: 'h2',
     mt: 3,
     mb: 4,
-    fontSize: [3, 4],
-    fontWeight: 5,
+    fontSize: [1, 2],
+    fontWeight: 1,
     lineHeight: 'title',
   },
   'space'
@@ -38,11 +38,11 @@ const Paragraph = system(
 const Rule = system(
   {
     is: 'hr',
-    border: 2,
-    borderColor: 'orange',
+    border: 1,
+    borderColor: 'red',
   },
   `width: 100%;
-  max-width: 8rem;
+  max-width: 40rem;
   margin-left: 0;
   margin-right: 0;`,
   'space'

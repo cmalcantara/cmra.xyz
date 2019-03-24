@@ -11,7 +11,7 @@ import 'sanitize.css'
 
 const GlobalStyles = createGlobalStyle`
   html {
-    background-color: ${({ theme }) => theme.colors.orange};
+    background-color: ${({ theme }) => theme.colors.red};
     scroll-behavior: smooth;
 
     @media (prefers-reduced-motion: reduce) {
@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ::selection {
-    background-color: ${({ theme }) => theme.colors.orange} !important;
+    background-color: ${({ theme }) => theme.colors.red} !important;
     color: ${({ theme }) => theme.colors.darkGrey} !important;
   }
 
@@ -103,9 +103,9 @@ const Layout = ({ children, location, theme }) => {
         <meta name="description" content={description} />
         {/* theming */}
         <meta name="theme-color" content={theme.colors.nearWhite} />
-        <meta name="apple-mobile-web-app-title" content="lowmess" />
-        <meta name="application-name" content="lowmess" />
-        <meta name="msapplication-TileColor" content="{theme.colors.orange}" />
+        <meta name="apple-mobile-web-app-title" content="cmra" />
+        <meta name="application-name" content="cmra" />
+        <meta name="msapplication-TileColor" content="{theme.colors.red}" />
         {/* icons */}
         <link
           rel="apple-touch-icon"
@@ -127,7 +127,7 @@ const Layout = ({ children, location, theme }) => {
         <link
           rel="mask-icon"
           href="/safari-pinned-tab.svg"
-          color={theme.colors.orange}
+          color={theme.colors.red}
         />
       </Helmet>
 
