@@ -32,7 +32,6 @@ const errorPage = () => (
           fontFamily="monospace"
           lineHeight="title"
         >
-          &ldquo; Click here to go home &rdquo;
           <br />
           &nbsp;
           <br />

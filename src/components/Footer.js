@@ -66,7 +66,7 @@ const Footer = () => {
         </ListItem>
 
         <ListItem display="inline-block">
-          <SocialLink href="../../public/alcantara-cv.pdf">CV</SocialLink>
+          <SocialLink href="alcantara-cv.pdf">CV</SocialLink>
         </ListItem>
       </List>
     </Flex>
