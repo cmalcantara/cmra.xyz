@@ -65,6 +65,10 @@ const Footer = () => {
           <SocialLink href="https://github.com/cmalcantara">GitHub</SocialLink>
         </ListItem>
 
+        <ListItem display="inline-block" mr={3}>
+          <SocialLink href="https://medium.com/@cmalcantara">Medium</SocialLink>
+        </ListItem>
+
         <ListItem display="inline-block">
           <SocialLink href="alcantara-cv.pdf">CV</SocialLink>
         </ListItem>
